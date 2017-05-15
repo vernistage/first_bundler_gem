@@ -1,4 +1,5 @@
 require "foodie/version"
+require 'active_support/inflector'
 
 module Foodie
   class Food
