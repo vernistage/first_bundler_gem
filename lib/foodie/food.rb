@@ -1,6 +1,4 @@
-require "foodie/version"
-# require 'foodie/food'
-
+# Do I need to exist?
 module Foodie
   class Food
     def self.portray(food)
