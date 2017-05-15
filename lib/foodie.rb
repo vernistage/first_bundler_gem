@@ -1,5 +1,4 @@
 require "foodie/version"
-# require 'foodie/food'
 
 module Foodie
   class Food
@@ -9,6 +8,9 @@ module Foodie
       else
         "Delicious!"
       end
+    end
+    def self.pluralize(word)
+      word.pluralize
     end
   end
 end
