@@ -10,7 +10,7 @@ module Foodie
     end
 
     desc "pluralize", "Pluralizes a word"
-    method_option :word, :aliases => "-w"
+    method_options :word => :string, :uppercase => :boolean
     def pluralize
       puts Foodie::Food.pluralize(options[:word])
     end
